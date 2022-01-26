@@ -1,0 +1,93 @@
+/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	min-height: 100vh;
+	background: linear-gradient(to right top, #D3DEDC, #92A9BD);
+	display: flex;
+	align-items: center; /* vertically */
+	justify-content: center; /* horizontally */
+}
+
+body {
+	background: white;
+	min-height: 82vh;
+	width: 90%;
+	border-radius: 2rem;
+	padding: 10px;
+	box-shadow: 5px 10px;
+}
+
+main {
+	padding: 5% 10%;
+}
+
+/* header layout */
+
+header {
+	padding-top: 10px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+h1 {
+	flex: 1;
+	display: inline-block;
+	text-align: center;
+}
+
+nav {
+	flex: 100%;
+	display: flex;
+	
+}
+
+nav ul {
+	
+	float: left;
+	padding: 80px 250px 0px;
+	position: relative;
+	display: flex;
+	flex: 100%;
+}
+
+nav li {
+	flex: 100%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;	
+	font-size: 1.5rem;
+}
+
+nav ul li::after {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: black;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+nav ul li:hover::after {
+	width: 100%;
+}
+
+dt {
+	font-weight: bold;
+}
+
+.right-align {
+	float: right;
+	font-weight: bold;
+}
