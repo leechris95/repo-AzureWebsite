@@ -64,6 +64,8 @@ Seperated into 3 parts:
 
 Each workflow will be used to automatically deploy those respective parts of the project if new code is pushed, as well as automatically purge the CDN endpoint so visitors to the website are provided the latest content.  Unit testing will be used to test the functionality of the Azure Function.
 
+For the most part, this was relatively simple. The guidelines in the link below provided a easy template to use, and the main thing to be wary of was replacing the placeholders with the correct values and directories.
+
 https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions?tabs=userlevel
 
 ## Back to step 1
