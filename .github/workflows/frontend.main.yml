@@ -1,11 +1,11 @@
 name: deploy_frontend
 
+# Applies whenever there is a change in the frontend folder.
 on:
     push:
         branches: [ main ]
-        # Applies whenever there is a change in the frontend folder.
         paths:
-          - 'frontend/**'
+        - 'frontend/**'
 
 jobs:
   build:
